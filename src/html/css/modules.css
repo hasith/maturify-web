@@ -288,6 +288,11 @@
     border: 4px solid #fff;
     border-radius: 50%;
     position: relative; }
+    .user-menu .user-menu-content .logintext {
+      color: #000000;
+      font-weight: 20px;
+      margin: 0;
+    }
     @media (max-width: 768px) {
       .user-menu .user-menu-content {
         width: 44px;
