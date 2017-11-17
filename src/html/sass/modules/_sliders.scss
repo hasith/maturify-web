@@ -5,6 +5,7 @@
   position: relative;
   cursor: pointer;
   padding-bottom: 130px;
+  text-align: center;
 
   .swiper-slide{
     /* Center slide text vertically */
@@ -26,6 +27,8 @@
     .slider-content {
       .slider-content-title {
         color: $white-color;
+        font-size: 40px;
+        padding-top: 50px;
       }
       .slider-content-text {
         color: $white-color;
@@ -34,7 +37,7 @@
     }
   }
   .container{
-    padding: 20px 0;
+    padding: 20px 0 0;
   }
 
   .slider-content-fullwidth {
@@ -91,7 +94,7 @@
 
   .slider-thumb {
     overflow: hidden;
-    padding: 20px 15px;
+    padding: 20px 15px 0;
 
     @media (max-width: 768px) {
       height: auto;
