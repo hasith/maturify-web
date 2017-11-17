@@ -3,7 +3,6 @@
 
 .seo-score {
   background-color: $heading-color;
-  padding: 130px 0 200px;
   position: relative;
   overflow: hidden;
 
@@ -15,18 +14,35 @@
     padding: 65px 0 180px;
   }
 
+  .wrapper {
+    max-width: 600px; 
+    text-align: center; 
+    margin: 0 auto; 
+    position: relative; 
+    z-index: 5;
+    top: 100px;
+  }
+
+  .video-control {
+    margin-bottom: 40px; 
+    display: block
+  }
+
   .seo-score-content {
     z-index: 2;
     position: relative;
+    padding: 150px;
 
     .heading {
       .heading-title {
-        color: $white-color;
-        margin-bottom: 10px;
+        font-size: 36px; 
+        color: #fff; 
+        margin-bottom: 20px;
       }
 
       .heading-text {
-        color: #797676;
+        color: #acacac; 
+        font-size: 18px
       }
     }
 
@@ -77,31 +93,13 @@
   .images {
     img {
       position: absolute;
-      opacity: 0;
-
-      &:first-of-type {
-        top: -100px;
-        left: 50%;
-        transform: translate(-50%, 0);
-        -webkit-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-      }
-
-      &:nth-child(2) {
-        bottom: -100%;
-        left: 50%;
-        transform: translate(-50%, 0);
-        -webkit-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-      }
-
-      &:last-of-type {
-        bottom: -100%;
-        left: 50%;
-        transform: translate(-50%, 0);
-        -webkit-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-      }
+      opacity: .2;
+      top: 100px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      
     }
   }
 }

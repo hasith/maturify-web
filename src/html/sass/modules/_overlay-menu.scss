@@ -292,7 +292,7 @@ body {
   }
 
   .right-menu-wrap {
-    padding: 80px 75px 30px;
+    padding: 35px 75px 30px;
     background-color: $white-color;
 
     .user-menu-close {
@@ -441,9 +441,18 @@ body {
   .contacts {
     display: block;
 
+
+    .helped, .helped a {
+      color: $primary-color;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+    
     .contacts-title, .heading-title {
       font-size: 30px;
       margin-bottom: 20px;
+      padding-top: 20px;
     }
 
     .contacts-text {
@@ -499,7 +508,7 @@ body {
   }
 
   .widget {
-    padding: 30px 75px 40px;
+    padding: 0px 75px 40px;
     margin-bottom: 0;
 
     &:nth-child(even) {
